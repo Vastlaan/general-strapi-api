@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sub_subs",
+  "info": {
+    "name": "sub",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
