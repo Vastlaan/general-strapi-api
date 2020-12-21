@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/t-4-s",
+      "handler": "t4.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/t-4-s/count",
+      "handler": "t4.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/t-4-s/:id",
+      "handler": "t4.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/t-4-s",
+      "handler": "t4.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/t-4-s/:id",
+      "handler": "t4.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/t-4-s/:id",
+      "handler": "t4.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

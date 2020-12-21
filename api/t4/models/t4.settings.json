@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t4s",
+  "info": {
+    "name": "t4",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "links": {
+      "collection": "link"
+    },
+    "quotes": {
+      "collection": "quote"
+    }
+  }
+}
