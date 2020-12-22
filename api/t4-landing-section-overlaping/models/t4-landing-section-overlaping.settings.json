@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t4_landing_section_overlapings",
+  "info": {
+    "name": "t4-landing-section-overlaping",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "btn": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "img1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "img2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    }
+  }
+}

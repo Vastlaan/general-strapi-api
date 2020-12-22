@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/t-4-landing-section-overlapings",
+      "handler": "t4-landing-section-overlaping.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/t-4-landing-section-overlapings/count",
+      "handler": "t4-landing-section-overlaping.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/t-4-landing-section-overlapings/:id",
+      "handler": "t4-landing-section-overlaping.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/t-4-landing-section-overlapings",
+      "handler": "t4-landing-section-overlaping.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/t-4-landing-section-overlapings/:id",
+      "handler": "t4-landing-section-overlaping.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/t-4-landing-section-overlapings/:id",
+      "handler": "t4-landing-section-overlaping.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

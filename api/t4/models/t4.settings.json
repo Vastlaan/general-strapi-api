@@ -16,6 +16,12 @@
     },
     "quotes": {
       "collection": "quote"
+    },
+    "t_4_landing_header": {
+      "model": "t4-landing-header"
+    },
+    "t_4_landing_section_overlaping": {
+      "model": "t4-landing-section-overlaping"
     }
   }
 }
