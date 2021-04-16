@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "online_podatki_categories",
   "info": {
-    "name": "online-podatki-category"
+    "name": "online-podatki-category",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,8 @@
     },
     "online_podatki_articles": {
       "collection": "online-podatki-articles",
-      "via": "online_podatki_category"
+      "via": "online_podatki_categories",
+      "dominant": true
     }
   }
 }

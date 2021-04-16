@@ -35,9 +35,9 @@
       "plugin": "upload",
       "required": true
     },
-    "online_podatki_category": {
+    "online_podatki_categories": {
       "via": "online_podatki_articles",
-      "model": "online-podatki-category"
+      "collection": "online-podatki-category"
     }
   }
 }
