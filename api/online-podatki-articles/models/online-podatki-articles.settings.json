@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "online_podatki_articles",
+  "info": {
+    "name": "online-podatki-articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "online_podatki_category": {
+      "via": "online_podatki_articles",
+      "model": "online-podatki-category"
+    }
+  }
+}

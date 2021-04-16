@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/online-podatki-categories",
+      "handler": "online-podatki-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/online-podatki-categories/count",
+      "handler": "online-podatki-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/online-podatki-categories/:id",
+      "handler": "online-podatki-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/online-podatki-categories",
+      "handler": "online-podatki-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/online-podatki-categories/:id",
+      "handler": "online-podatki-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/online-podatki-categories/:id",
+      "handler": "online-podatki-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
